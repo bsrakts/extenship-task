@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;800&display=swap');
+
+/* color-variables */
+$soft-gray:#9FBCD4;
+$light-blue-text: #9FBCD4;
+$soft-gray2-info-icon:#62829C;
+$medium-blue-btn: #3170F7;
+$dark-blue-btn: #2B549F;
+$dark-text: #253746;
+
+/* font-size-variables */
+$fs-30: 30px; // H{str_17},
+$fs-20: 20px; // H{str_19},
+$fs-18: 18px; // S{str_15, str_59},
+$fs-16: 16px; // H{str_25, str_43}, P{str_11, str_14}
+$fs-12: 12px; // H{str_29,str_47},
+
+/* font-weight */
+$fw-4: 400;
+$fw-5: 500;
+$fw-6: 600;
+
+/* space-variables */
+
+
+
+
+*{
+    font-family: 'Rubik', sans-serif;
+    font-weight:400;
+}
+
+.fs30{
+    font-size: $fs-30;
+}
+
+.fs20{
+    font-size: $fs-20;
+}
+
+.fs18{
+    font-size: $fs-18;
+}
+
+.fs16{
+    font-size: $fs-16;
+}
+
+.fs12{
+    font-size: $fs-12;
+}
+
+.fw4{
+    font-weight:$fw-4;
+}
+
+.fw5{
+    font-weight:$fw-5;
+}
+
+.fw6{
+    font-weight:$fw-6;
+}
+
+.softgray{
+    color: $soft-gray;
+}
+
+.light-blue-text{
+    color: $light-blue-text;
+}
+
+.soft-gray2-info-icon{
+    color: $soft-gray2-info-icon;
+}
+
+.medium-blue-btn{
+    color: $medium-blue-btn;
+}
+
+.dark-blue-btn{
+    color: $dark-blue-btn;
+}
+.dark-text{
+    color: $dark-text;
+}

@@ -18,7 +18,7 @@ export default {
     pages: {
       1: "home",
       2: "settings",
-      3: "ThirdPage",
+      3: "completed",
     },
   }),
   components: {
